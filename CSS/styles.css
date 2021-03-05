@@ -43,31 +43,124 @@ table {
 }
 
 /*Começa aqui*/
+.html, body{
+    font-family: 'Poppins', sans-serif;
+}
+.apresenta{
+    background: url("../Images/background.png") no-repeat center 0;
+    width: 100%;
+    height: 50rem;
+    padding-top: 40px;
+}
+.apresenta-box{
+    padding-top: 7rem;
+}
 .center{
-    width: 1110px;
+    width: 1500px;
     margin: auto;
 }
-.Frase{
+.titulo{
     color:coral;
-    font-size:larger;
+    font-size: 3.5rem;
+    font-weight: 600;
     }
+.subtitulo{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #218e89;
+    line-height: 3rem;
+}
+.descri-apresenta{
+    font-size: 1.2 rem;
+    font-weight: 400;
+    color:slategray;
+    padding-bottom: 3.5rem;
+    line-height: 1.7rem;
+}
+
+.bt-descri{
+    font-size: 1.06rem;
+    font-weight: 600;
+    color: snow;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 0.4rem;
+    background-color: rgba(33,142,137,0.7);
+    
+}
+.bt-descri:hover {
+    transition: 0.3s;
+    background-color:rgba(33,142,137,1.5);
+
+}
+.texto-apresenta{
+    padding-top: 8rem;
+    width: 50%;
+    float: left;
+}
+
+.img-apresenta{
+    width: 50%;
+    height: 80%;
+    float: right;
+    border-radius: 0.4rem;
+
+}
 .menu{
-    color:indigo; 
     float: right;
 }
 .menu_li{
     float: left;
+    margin: 0 10px;
 }
+.menu__link{
+    color: snow;
+    text-decoration:none;
+    font-size: 1rem;
+    line-height: 16px;
+}    
 .logo{
+    
     float: left;
 }
 
 .logomarca{
-    width: 15rem;
-    height:10rem;
+    margin-top: -30px;
+    width: 12rem;
+    height: 5rem;
     background: url("../Images/Dualize.png") no-repeat 0 0;
     display: block;
 }
 .clear{
     clear: both;
+}
+
+.bt-login {
+    font-size: 1.06rem;
+    font-weight: 600;
+    color: snow;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 0.4rem;
+    background-color: rgba(255,114,0,0.5);
+    margin-left: 30px;
+}
+.bt-login:hover {
+    transition: 0.3s;
+    background-color:rgba(255,114,0,2);
+
+}
+.bt-cadastro {
+    font-size: 1.06rem;
+    font-weight: 600;
+    color: snow;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 0.4rem;
+    background-color: rgba(224,42,98,0.4);
+}
+.bt-cadastro:hover {
+    transition: 0.3s;
+    background-color:rgba(224,42,98,1);
+
 }
