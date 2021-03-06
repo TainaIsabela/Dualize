@@ -93,6 +93,7 @@ table {
     background-color:rgba(33,142,137,1.5);
 
 }
+
 .texto-apresenta{
     padding-top: 8rem;
     width: 50%;
@@ -163,4 +164,51 @@ table {
     transition: 0.3s;
     background-color:rgba(224,42,98,1);
 
+}
+
+.apresenta-livros{
+    padding-top: 3rem;
+    padding-left: 12rem;
+    
+    
+}
+
+
+.livros{
+    width: 20rem;
+    height: 25rem;
+    background-color: lavender;
+    display:inline-block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+.h2apresenta-livros{
+
+    color:indigo;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-left: 29rem;
+}
+.h3apresenta-livros{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #218e89;
+    line-height: 3rem;
+    padding-left: 30.5rem;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+.titulolivros{
+    color:coral;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-top: 20rem;    
+    text-decoration: none;
+    
+}
+.efeitonda{
 }
